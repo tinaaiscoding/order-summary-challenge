@@ -1,0 +1,140 @@
+body {
+  background-color: #e0e8ff;
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  color: #7280a7;
+  font-family: 'Red Hat Display', sans-serif;
+  text-align: center;
+}
+
+h2, h3 {
+  color: #00033c;
+}
+
+/* Containers */
+.container {
+  background-color: #fff;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5% auto 0;
+  overflow: hidden;
+  width: 350px;
+}
+
+/* Card Header */
+.card-header h2 {
+  padding-top: 6%
+}
+
+.description {
+  font-size: 0.8rem;
+  width: 270px;
+}
+
+.card-img {
+  width: 350px;
+}
+
+/* Annual plan section */
+.plan-summary {
+  align-items: center;
+  background-color: #f5f7ff;
+  border-radius: 5%;
+  display: grid;
+  grid-template-areas:
+    "a b c"
+    "a b c";
+  height: 70px;
+  justify-content: space-evenly;
+  margin: 2% 0 8%;
+  text-align: left;
+  width: 280px;
+}
+
+.icon-music {
+  grid-area: a;
+  position: relative;
+  right: 7px;
+  width: 90%;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.70rem;
+  grid-area: b;
+  justify-content: center;
+  position: relative;
+  right: 25px;
+}
+
+.text {
+  margin: 1.5px;
+}
+
+/* Change link */
+.change-link {
+  font-size: 0.8rem;
+  font-weight: 600;
+  grid-area: c;
+}
+
+a.change-link:link {
+  color: #3829e0;
+}
+
+a.change-link:visited {
+  color: #3829e0;
+}
+
+a.change-link:hover {
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+/* Buttons */
+.payment-btn {
+  background-color: #3829e0;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  height: 40px;
+  width: 280px;
+}
+
+.payment-btn:hover {
+  opacity: 0.7;
+}
+
+.btn-shadow {
+  box-shadow: 0 15px 15px #d4d3e8;
+}
+
+/* Cancel link */
+.cancel {
+  display: inline-block;
+  padding: 20px;
+}
+
+a.cancel:link {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a.cancel:visited {
+  color: #7280a7;
+}
+
+a.cancel:hover {
+  color: #00033c;
+  text-decoration: none;
+}
+
+/* Footer */
+.attribution {
+  padding-top: 20px;
+}
